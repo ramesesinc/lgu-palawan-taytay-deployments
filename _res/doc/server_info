@@ -1,0 +1,33 @@
+Ubuntu Server (dual-boot w Windows Server)
+IP 192.168.254.109
+SUBNET 255.255.255.0
+GATEWAY 192.168.254.254
+user: taytaymasso
+pass: admin2020
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    eno2:
+     dhcp4: no
+     addresses: [192.168.254.109/24]
+     gateway4: 192.168.254.254
+     nameservers:
+       addresses: [8.8.8.8,8.8.4.4]
+
+WEBMIN:
+user: taytaymasso
+pass: admin2020
+
+PORTAINER:
+user: admin
+pass: p@ssw0rd
+
+SAMBA FOLDER:
+user: taytaymasso
+pass: p@ssw0rd
+
+MYSQL
+user: root
+pass: P@ssw0rd#
