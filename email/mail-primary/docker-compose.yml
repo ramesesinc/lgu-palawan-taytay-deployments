@@ -4,7 +4,7 @@ services:
 
   mail-primary: 
     container_name: mail-primary
-    image: "ramesesinc/mail-server:latest"
+    image: ramesesinc/mail-server:latest
     restart: always
     logging: 
       driver: "json-file"
@@ -15,6 +15,7 @@ services:
       TZ: "Asia/Manila"
     env_file:
       - ./env.conf
+      - ../../_res/env.conf
       - ../../_custom/env.conf
     ports:
-      - "25:25"
+      - "2525:25"
