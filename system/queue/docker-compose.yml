@@ -11,12 +11,10 @@ services:
       options: 
         max-file: "5"
         max-size: 10m
-    links:
-      - queue-server
     environment:
       TZ: "Asia/Manila"
     ports:
-      - "9999:9999"
+      - "9999:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
       - ../../_custom/queue:/resources
