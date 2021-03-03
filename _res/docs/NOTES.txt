@@ -1,6 +1,6 @@
 [Ubuntu Server]
 IP   : 192.168.88.253
-User : taytaymasso
+User : masso
 Pass : admin2020
 
 
@@ -11,7 +11,7 @@ Pass : P@ssw0rd#
 
 
 [Webmin]
-User : taytaymasso
+User : masso
 Pass : admin2020
 
 
@@ -21,7 +21,7 @@ Pass :  p@ssw0rd
 
 
 [Samba Shared Folder]
-User : taytaymasso
+User : masso
 Pass : p@ssw0rd
 
 
