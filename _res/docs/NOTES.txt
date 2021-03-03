@@ -1,11 +1,11 @@
 [Ubuntu Server]
-IP   : 192.168.254.109
+IP   : 192.168.88.253
 User : taytaymasso
 Pass : admin2020
 
 
 [DB Server]
-IP   : 192.168.254.109
+IP   : 192.168.88.253
 User : root
 Pass : P@ssw0rd#
 
